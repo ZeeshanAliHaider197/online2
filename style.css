@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+}
+#main{
+    position: fixed;
+    width: 100vw;
+    height: 18vh;
+    z-index: 2;
+    background-color: lightgray;
+}
+.zeme{
+    position: absolute;
+    width: 161px;
+    height: 51px;
+    border-radius: 54px;
+    margin-left: 14%;
+    margin-top: 8px;
+}
+.istheading{
+    margin-left: 37%;
+    font-size: 59px;
+    color: rgb(20, 146, 189);
+    position: relative;
+    top: 8%;
+}
+.seconheading{
+    
+    font-size: 24px;
+    position: absolute;
+    top: 48px;
+}
+.thirdheading{
+    
+    font-size: 12px;
+    position: absolute;
+    top: 30px;
+    background-color: yellow;
+}
+.Business{
+    margin-left: -29%;
+    font-size: 33px;
+    color: rgb(20, 146, 189);
+    position: absolute;
+    top: 81px;
+}
+.Company{
+    font-size: 13px;
+    position: absolute;
+    top: 96px;
+    margin-left: -20%;
+}
+.Free{
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 85px;
+    font-size: 9px;
+    background-color: yellow;
+}
+.lorem{
+    position: absolute;
+    margin-top: 94px;
+    margin-left: -5%;
+    font-size: 14px;
+}
+.phone{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 12%;
+    font-size: 12px;
+}
+#phoneicon{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 11%;
+    font-size: 12px;
+    color: rgb(20, 146, 189);
+}
+#Second{
+    width: 100vw;
+    height: 45px;
+    background-color: black;
+    margin-top: 109px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.boton{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 39px;
+    width: 80px;  
+}
+.boton:hover{
+    background-color: lightblue;
+}
+.pic{
+    position: absolute;
+    margin-top: 152px;
+    width: 100vw;
+    height: 417px;
+}
+/* #third{
+
+} */
+.text{
+    position: absolute;
+    margin-top: 217px;
+    margin-left: 63%;
+    font-size: 36px;
+    color: rgb(20, 146, 189);
+
+}
+/* .fourdiv{
+    
+} */
+.one{
+    position: absolute;
+    width: 199px;
+    height: 220px;
+    margin-left: 19%;
+    margin-top: 474px;
+    border:0.1px solid lightblue;
+    background-color: rgb(20, 146, 189);
+    text-align: center;
+}
+#user{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    margin-left: -8%;  
+}
+.two{
+    position: absolute;
+    width: 199px;
+    width: 199px;
+    height: 218px;
+    margin-left: 33%;
+    margin-top: 474px;
+    border:1px solid lightblue;
+    background-color: rgb(20, 146, 189);
+}
+#bulb{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    margin-left: 37%;
+}
+.three{
+    position: absolute;
+    width: 199px;
+    height: 218px;
+    margin-left: 47%;
+    margin-top: 474px;
+    background-color: rgb(20, 146, 189);
+    border:1px solid lightblue;
+}
+#setting{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    margin-left: 37%;  
+}
+.four{
+    position: absolute;
+    width: 199px;
+    height: 218px;
+    margin-left: 61%;
+    margin-top: 474px;
+    border:1px solid lightblue;
+    background-color: rgb(20, 146, 189);
+}
+#archive{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    margin-left: 37%;    
+}
+.a{
+    position: absolute;
+    width: 85px;
+    height: 71px;
+    margin-top: 716px;
+    margin-left: 19%;
+    background-color: rgb(20, 146, 189);
+}
+.b{
+    position: absolute;
+    width: 85px;
+    height: 71px;
+    margin-top: 716px;
+    margin-left: 47%;
+    background-color: rgb(20, 146, 189);
+}
+.c{
+    position: absolute;
+    width: 85px;
+    height: 71px;
+    margin-top: 814px;
+    margin-left: 19%;
+    background-color: rgb(20, 146, 189);
+}
+.d{
+    position: absolute;
+    width: 85px;
+    height: 71px;
+    margin-top: 814px;
+    margin-left: 47%;
+    background-color: rgb(20, 146, 189);
+}
+
+.aa{
+    position: absolute;
+    width: 274px;
+    height: 66px;
+    margin-top: 716px;
+    margin-left: 26%;
+}
+.bb{
+    position: absolute;
+    width: 292px;
+    height: 66px;
+    margin-top: 716px;
+    margin-left: 54%;
+}
+.cc{
+    position: absolute;
+    width: 274px;
+    height: 66px;
+    margin-top: 815px;
+    margin-left: 26%;
+}
+.dd{
+    position: absolute;
+    width: 292px;
+    height: 66px;
+    margin-top: 815px;  
+    margin-left: 54%;
+}
+.line1{
+    position: absolute;
+    height: 2px;
+    width: 775px;
+    background-color: rgb(20, 146, 189);
+    margin-top: 906px;
+    margin-left: 19%;
+}
+.pic2{
+    position: absolute;
+    margin-top: 943px;
+    width: 260px;
+    margin-left: 19%;
+    height: 158px;
+}
+#icon1{
+    position: absolute;
+    font-size: 37px;
+    margin-left: 25px;
+    margin-top: 14px;
+    color: white;  
+}
+#icon2{
+    position: absolute;
+    font-size: 37px;
+    margin-left: 25px;
+    margin-top: 14px;
+    color: white;
+}
+#icon3{
+    position: absolute;
+    font-size: 37px;
+    margin-left: 25px;
+    margin-top: 14px;
+    color: white;
+}
+#icon4{
+    position: absolute;
+    font-size: 37px;
+    margin-left: 25px;
+    margin-top: 14px;
+    color: white;
+}
+.p1{
+    position: absolute;
+    width: 22px;
+    margin-top: 918px;
+    margin-left: 27%;
+}
+.p2{
+    position: absolute;
+    width: 22px;
+    margin-top: 918px;
+    margin-left: 46%;
+}
+.services{
+    position: absolute;
+    width: 259px;
+    height: 338px;
+    margin-left: 39%;
+    margin-top: 944px;
+}
+.helpcenter{
+    position: absolute;
+    width: 231px;
+    height: 226px;
+    margin-left: 59%;
+    margin-top: 915px;
+    background-color: rgb(20, 146, 189); 
+}
+.line2{
+    margin-top: 14px;
+    width: 215px;
+    margin-left: 5px;
+}
+.line3{
+    width: 215px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.pera1{
+    margin-left: 80px;
+    margin-top: -25px;
+    color: white;
+}
+#mesg{
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 32px; 
+    color: white;
+}
+.lasttext1{
+    position: absolute;
+    width: 257px;
+    height: 181px;
+    margin-left: 19%;
+    margin-top: 1097px;   
+}
+.pic3{
+    position: absolute;
+    margin-top: 1151px;
+    width: 104px;
+    margin-left: 59%;
+    height: 94px;
+}
+.lasttext2{
+    position: absolute;
+    margin-top: 1151px;
+    width: 118px;
+    margin-left: 67%;
+    height: 131px;
+}
+.bt1{
+    position: absolute;
+    margin-top: 1299px;
+    width: 104px;
+    margin-left: 22%;
+    background-color: rgb(20, 146, 189);
+    border: none;
+}
+.bt2{
+    position: absolute;
+    margin-top: 1299px;
+    width: 104px;
+    margin-left: 41%;
+    background-color: rgb(20, 146, 189);
+    border: none;
+}
+#last{
+    position: absolute;
+    margin-top: 1345px;
+    width: 100vw;
+    height: 200px;
+    background-color:rgb(69, 70, 69);
+}
+#logo1{
+    margin-left: 13%;
+    margin-top: 38px;
+    font-size: 30px;
+    color:rgb(20, 146, 189) ;
+}
+#logo2{
+    margin-left: 19%;
+    margin-top: 38px;
+    font-size: 30px;
+    color:rgb(20, 146, 189) ; 
+}
+#logo3{
+    margin-left: 19%;
+    margin-top: 38px;
+    font-size: 30px;
+    color:rgb(20, 146, 189) ; 
+}
+#icon4{
+    margin-left: -71.5%;
+    margin-top: 104px;
+    font-size: 30px;
+    color: rgb(20, 146, 189);
+}
+.text4{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 43px;  
+}
+#icon5{
+    margin-top: 105px;
+    position: absolute;
+    margin-left: -42%;
+    font-size: 28px;
+    color: rgb(20, 146, 189);  
+}
+.text5{
+    margin-left: 44%;
+    margin-top: 44px;
+}
+#icon6{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 72%;
+    font-size: 28px;
+    color: rgb(20, 146, 189);
+}
+.text6{
+    margin-left: 74%;
+    margin-top: -14px;
+}
+.lastline{
+    margin-top: 22px;
+    width: 980px;
+    margin-left: 12%;
+    color: rgb(20, 146, 189);
+}
+.lasttext{
+    margin-left: 14%;
+    margin-top: 15px;
+}
